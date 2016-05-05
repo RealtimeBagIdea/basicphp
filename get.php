@@ -1,5 +1,7 @@
 <?php
 
+//Get value form file sendtoget.php
+
 if( isset($_GET['name']) && isset($_GET['age']) && isset($_GET['weight']))
 {
     $name = $_GET['name'];
